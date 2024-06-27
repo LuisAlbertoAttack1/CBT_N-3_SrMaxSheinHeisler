@@ -1,0 +1,131 @@
+:root {
+    --ColorDeIconos:#e9ecef:
+}
+
+@font-face {
+    font-family: 'Monserrat';
+    src: url('../fonts/montserrat/Montserrat-Regular.otf');
+}
+
+.text-verde{
+    color: #0f5f3a;
+}
+.text-verde2{
+    color: #219711;
+}
+
+.menu-fixed{ 
+	position: fixed;
+  	width: 100%;
+  	top:0;
+  	z-index: 1000;
+  	box-shadow: 0px 4px 3px rgba(0,0,0,0.2);
+}
+
+.ColorDeFooter{
+    background-color: #e9ecef;
+}
+
+.colorTransparente {
+    background: rgba(138, 221, 45, 0);
+}
+.colorBotonLoginIngresar{
+    background-color: #dee2e6;
+}
+.tamDeImgLogoAgregarUsuario{
+    height: 25rem;
+    width: 25rem;
+}
+.imgTamañoDeMenuAdministrador{
+    height: 15rem;
+    width: 15rem;
+
+}
+.ImgTamañoValores{
+    width: 25rem;
+}
+.tamDeImgLogoEditarListado{
+    height: 20rem;
+    width: 20rem;
+}
+.tamDeImgLogoViewsSubirf1Docentes{
+    height: 13rem;
+    width: 13rem;
+}
+
+/* Nuevas clases */
+.TamDeImgDeFooter{
+    width: 7rem;
+    height: 7rem;
+}
+.TamDeLetra{
+font-size: 13px;
+}
+.TamDeLetras{
+    font-size: 14px;
+}
+
+
+.card-panel{
+    color: #198754;
+    transition-duration: 1s;
+    border-radius: 1rem;
+    border: none;
+}
+
+.card-panel:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: #0f5f3a;
+    border: 1px solid #0f5f3a;
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 1.1rem;
+    border-bottom-left-radius: 0.4rem;
+}
+.card-nav{
+    color: #000000;
+    transition-duration: 1s;
+    border-radius: 1rem;
+    border: none;
+}
+
+.card-nav:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: #000000;
+
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 1.1rem;
+    border-bottom-left-radius: 0.4rem;
+}
+.card-home{
+    color: #000000;
+    transition-duration: 1s;
+    border-radius: 1rem;
+    border: none;
+}
+
+.card-home:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: #000000;
+
+    border-top-left-radius: 1.1rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 1.1rem;
+    border-bottom-left-radius: 0.4rem;
+}
+
+.GosorDeLetra{
+    font-size: 40px;
+    font-family: Arial Black;
+}
+.GosorDeLetraHome{
+    font-size: 30px;
+    font-family: Arial Black;
+}
+.text-sm{
+    font-size: 11px;
+}
